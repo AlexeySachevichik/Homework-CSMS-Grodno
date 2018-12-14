@@ -1,0 +1,192 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+	.sd-hidden {
+		display: none !important;
+	}
+
+	.wrapper .sm-button-menu {
+		display: block;
+	}
+
+	.header .row .firm_name {
+		width: 90%;
+	}
+	
+	.menu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+	}
+
+	.menu .row .menu_main li {
+		float: none;
+		border-right: 0;
+	}
+
+	.menu .row .menu_main li ul {
+		display: block;
+		position: static;
+		box-shadow: none;
+	}
+
+	.menu .row .menu_main li ul li {
+		border-top: 1px solid #f0f3f5;
+		border-bottom: 0;
+	}
+
+	.menu .row .menu_main li ul li ul li a {
+		padding-left: 40px !important;
+	}
+
+	.wrapper .content_info,
+	.wrapper .phone_numbers,
+	.wrapper .history {
+		padding: 20px 0;
+	}
+
+	.wrapper .corusel {
+		margin-top: 20px;
+	}
+
+	.wrapper .phone_numbers table th {
+		padding: 15px 0;
+	}
+
+	.wrapper .footer .container-fluid .row .footer_table,
+	.wrapper .footer .container-fluid .row .footer_table .footer_cell {
+		display: block;
+		width: 100%;
+	}
+
+	.wrapper .footer .container-fluid .row .footer_table .footer_cell {
+		margin-bottom: 45px;
+	}
+
+	.wrapper .footer .container-fluid .row .footer_table .footer_cell:last-child {
+		margin-bottom: 0;
+	}
+
+	.wrapper .history .row .col .tabs .controls li.active {
+	    border-bottom: 0;
+	    border-top: 3px solid #0074c5;
+	}
+	
+	.wrapper .services,
+	.wrapper .attention {
+		padding: 20px 0;
+	}
+
+	.wrapper .attention h3 {
+		width: 100%;
+	}
+
+	.wrapper .news {
+		margin: 0;
+		padding: 0;
+		
+	}
+
+	.wrapper .news .news_item {
+		border: 0;
+	}
+
+	.wrapper .services .item {
+		margin: 15px 0;
+		padding-right: 10px;
+	}
+
+	.wrapper .certificate {
+		margin: 20px;
+	}
+
+	.wrapper .news .news_link {
+	    font: 400 20px/26px "OpenSans" !important;
+	}
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+	.header_info {
+		position: absolute;
+		top: 15px;
+		right: 0;
+		width: auto !important;
+		z-index: 99;
+		background: transparent !important;
+	}
+
+	.header .firm_name {
+		width: 70%;
+	}
+	
+	.md-hidden {
+		display: none !important;
+	}
+
+	.menu .row .col .menu_main li a {
+	    padding: 7px 9px;
+	}
+	
+	.footer .row ul .list-inline-item {
+		margin-right: 20px;
+	}
+	
+	.footer .row .footer_table .footer_cell:nth-child(2n-1) {
+	    width:33%;
+	}
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+	.header_info .info_wrapper .info_table .info_cell:nth-child(2n) {
+		    padding-right: 10px !important;
+	}
+
+	.header_info .info_wrapper .info_table .info_cell:last-child {
+		    padding-right: 0 !important;
+	}
+
+	.header {
+		padding-bottom: 10px;
+	}
+
+	.menu .row .menu_main li a {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+
+	.button_acent {
+		padding: 11px 13px !important;
+	}
+
+	.content_info .maps_wrapper .maps_button {
+		padding: 7px 18px !important;
+	}
+
+	.history .tabs .controls li {
+		margin-right: 5px !important;
+	}
+
+	.mt25 {
+		margin-top: 25px;
+	}
+
+	.news .news_link {
+		font: 400 25px/40px "OpenSans" !important;
+	}
+
+	.news .news_item .button_acent {
+		margin-bottom: 10px;
+	}
+}
